@@ -1,21 +1,36 @@
-# Sum of Prime Numbers
-This C program calculates the sum of all prime numbers up to a user-defined limit.
+# Sum of Two Prime Numbers
+
+This C++ program checks if a given number can be expressed as the sum of two prime numbers.
 
 ## Language
-C
+C++
 
 ## Description
-The program checks each number from 2 to the input value and adds it to the sum if it is a prime number.
+- The user inputs a positive integer.
+- The program checks all possible pairs `(i, n - i)` where both are prime.
+- If such a pair is found, it prints the pair(s).
+- If not, it displays a message saying it can't be expressed as the sum of two primes.
 
 ## Sample Output
-Enter the upper limit:
-10
-Sum of prime numbers = 17
 
-## How to Run
-Compile the program using a C compiler:
-```bash
-gcc sum_of_primes.c -o sum
-./sum
+Enter a positive integer: 34
+34 = 3 + 31
+34 = 5 + 29
+34 = 11 + 23
+34 = 17 + 17
+
+If no pairs found:
+Enter a positive integer: 7
+7 can't be expressed as sum of two prime numbers.
+
+What I Learned
+How to check for prime numbers using loops
+
+Using functions to organize logic
+
+Looping through pairs to find combinations
+
+Boolean flags for condition control
+
 
 
