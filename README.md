@@ -20,10 +20,13 @@ Enter a positive integer: 34
 34 = 17 + 17
 
 If no pairs found:
+
 Enter a positive integer: 7
+
 7 can't be expressed as sum of two prime numbers.
 
 What I Learned
+
 How to check for prime numbers using loops
 
 Using functions to organize logic
