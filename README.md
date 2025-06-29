@@ -14,9 +14,13 @@ C++
 ## Sample Output
 
 Enter a positive integer: 34
+
 34 = 3 + 31
+
 34 = 5 + 29
+
 34 = 11 + 23
+
 34 = 17 + 17
 
 If no pairs found:
