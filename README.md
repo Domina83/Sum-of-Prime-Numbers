@@ -29,6 +29,13 @@ Enter a positive integer: 7
 
 7 can't be expressed as sum of two prime numbers.
 
+## How to Run
+1. Save the code in a file called `sum_of_primes.cpp`
+2. Compile and run using:
+```bash
+g++ sum_of_primes.cpp -o prime_sum
+./prime_sum
+
 What I Learned
 
 How to check for prime numbers using loops
@@ -38,6 +45,3 @@ Using functions to organize logic
 Looping through pairs to find combinations
 
 Boolean flags for condition control
-
-
-
